@@ -43,7 +43,7 @@ last_name_len = len(last_name)  # len
 print("len lastname:", last_name_len)
 
 # Name short
-name_short = f'{first_name[0:1]}. {last_name}'
+name_short = f'{first_name[0]}. {last_name}'  # 0:1 is niet nodig. Alleen 0
 print(name_short)
 
 # Chant optie 1
